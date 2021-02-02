@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: "LarishNeueSemibold";
+  src: url("../fonts/LarishNeueSemibold.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== Hero ========== */
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height:100vh;
+}
+
+#hero span {
+  width: 2px;
+  height: 300px;
+  background-color: black;
+}
+
+#hero div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+#hero div:nth-of-type(2) img {
+  flex: 0 1 5%;
+}
+
+#hero div:nth-of-type(2) a {
+  flex: 0 1 5%;
+}
+
+/* ======== Hero END ========== */
+
+/* ======== Section 1 ========= */
+
+/* Article 1 */
+#section-1 article {
+}
+
+
+/* Article 2 */
+#section-1 article:nth-of-type(2) {
+  display: flex;
+}
+
+#section-1 article:nth-of-type(2) div:nth-of-type(1) {
+  flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#section-1 article:nth-of-type(2) div:nth-of-type(2) {
+  flex: 0 1 40%;
+}
+
+/* ======== Section 1 END ========= */
+
+/* ======== Section 2 ========= */
+
+.overflow-img1{
+ display:relative;
+}
+.overflow-img1 img{
+width: 20%;
+}
+
+/* Article 1 */
+#section-2 article:nth-of-type(1){
+  display: flex;
+  justify-content:flex-end;
+}
+
+#section-2 article:nth-of-type(1) img{
+  width: 20%;
+}
+
+#section-2 > div{
+  display: flex;
+}
+
+#section-2 > div img{
+  width: 20%;
+}
+
+
+/* Article 2 */
+#section-2 article:nth-of-type(2){
+  display: flex;
+}
+
+
+#section-2 article:nth-of-type(2) img{
+  width: 15%;
+}
